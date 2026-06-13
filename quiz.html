@@ -211,7 +211,8 @@ function showResult(){
     {t:'幽静的山谷溪边，亲近自然',f:['qingxi',3,'guyun',2,'kuanglan',1]},
     {t:'雄壮的瀑布之畔，锤炼意志',f:['kuanglan',3,'tianquan',2,'sangengtian',1]},
     {t:'月下的屋顶之上，独享宁静',f:['sangengtian',3,'liyuan',2,'guyun',1]}
-  ]},  });
+  ]}
+]);
   let top=FACTION_KEYS[0],maxScore=scores[FACTION_KEYS[0]];
   FACTION_KEYS.forEach(k=>{if(scores[k]>maxScore){maxScore=scores[k];top=k}});
   const f=FACTIONS[top];
@@ -226,4 +227,6 @@ function showResult(){
 </script>
 </body>
 </html>
+
+
 
